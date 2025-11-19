@@ -1,5 +1,4 @@
 // config.js
-// Mock configuration file for a sample web application
 // Author: Zasim
 // Date: 2025-11-18
 
