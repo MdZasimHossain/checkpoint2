@@ -1,5 +1,4 @@
 // server.js
-// Mock Express.js server for demonstration
 // Author: Zasim
 // Date: 2025-11-18
 
