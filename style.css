@@ -1,0 +1,101 @@
+/* =============================== */
+/* Basic styling for login page    */
+/* =============================== */
+
+/* Reset margins and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f0f2f5; /* Light gray background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.login-container {
+    background: #ffffff;
+    padding: 30px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Heading */
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Input group spacing */
+.input-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label styling */
+.input-group label {
+    margin-bottom: 5px;
+    color: #555;
+}
+
+/* Textbox styling */
+.input-group input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+/* Checkbox group styling */
+.checkbox-group {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Login button */
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green button */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.btn-login:hover {
+    background-color: #45a049;
+}
+
+/* Signup link text */
+.signup-text {
+    margin-top: 15px;
+    text-align: center;
+    color: #555;
+}
+
+/* Signup link anchor */
+.signup-text a {
+    color: #4CAF50;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hover effect for links */
+.signup-text a:hover {
+    text-decoration: underline;
+}
